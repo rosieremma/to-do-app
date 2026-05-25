@@ -30,6 +30,7 @@ function formatTask(task) {
     return tr;
 }
 
+
 // -------------- DISPLAY TASKS ---------------
 
 // Gets all tasks and displays them on page
