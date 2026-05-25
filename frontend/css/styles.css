@@ -1,0 +1,50 @@
+/* NAVBAR AND FOOTER*/
+nav, footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(0, 127, 255);
+    backdrop-filter: blur(10px);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: white;
+}
+
+/* CREATE A TASK FORM */
+.newTaskForm {
+    background-color: #32ba9a;
+}
+
+.form-label {
+    color: black;
+    font-weight: bold;;
+}
+
+.btn-create {
+    background-color: #65f6cc;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btn-create:hover {
+    background-color: #007fff;
+    color: white
+}
+
+/* FILTER BAR */
+
+.filterBar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    border-radius: 0.25rem;
+    background-color: #007fff;
+    padding: 16px;
+}
+
+/* TASK TABLE */
