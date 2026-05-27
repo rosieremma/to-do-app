@@ -1,7 +1,7 @@
 // ------------ GLOBAL VARIABLES ------------
 
 const form = document.getElementById("newTaskForm");
-const url = "http://localhost:3000";
+// const url = "http://localhost:3000";
 const url = "https://to-do-app-hj3n.onrender.com";
 
 
